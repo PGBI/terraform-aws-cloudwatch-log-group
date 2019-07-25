@@ -1,7 +1,5 @@
 variable "project" {
-  description = <<EOF
-    Reference to a [\"project\"](https://registry.terraform.io/modules/PGBI/project/aws/) module."
-EOF
+  description = "Reference to a \"project\" module. See: https://registry.terraform.io/modules/PGBI/project/aws/"
 }
 
 variable "name" {
